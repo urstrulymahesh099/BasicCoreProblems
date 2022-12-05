@@ -7,7 +7,7 @@ namespace BasicCoreProblems
         public static void Main(string[] args)
         {
             Console.WriteLine("*****WELL COME TO BASICCOREPROBLEMS*****");
-            Console.WriteLine("Please Select The Below Given option::" + "\n" + "1.FlipCoin" + "\n" + "2.LeapYear" + "\n" + "3.PowerOfTwo" + "\n" + "4.HarmonicNumber");
+            Console.WriteLine("Please Select The Below Given option::" + "\n" + "1.FlipCoin" + "\n" + "2.LeapYear" + "\n" + "3.PowerOfTwo" + "\n" + "4.HarmonicNumber"+"\n"+ "5.QuoteintAndReminder ");
             while (true)
             {
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -35,6 +35,12 @@ namespace BasicCoreProblems
                             Console.WriteLine("*****WELL COME TO HarmonicNumberProblrm*****");
                             HarmonicNumber number = new HarmonicNumber();
                             number.Harmonic();
+                            Console.WriteLine("******Thank YOU*******");
+                            break;
+                        case 5:
+                            Console.WriteLine("*****WELL COME TO QuoteintAndReminderProblem*****");
+                            QuoteintAndReminder check = new QuoteintAndReminder();
+                            check.Quotient();
                             Console.WriteLine("******Thank YOU*******");
                             break;
                         default:
