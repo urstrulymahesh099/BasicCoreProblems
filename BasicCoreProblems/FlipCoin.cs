@@ -34,7 +34,7 @@ namespace BasicCoreProblems
                     percentageOfTail = tailCount / noOfCountTimes * 100;
                     Console.WriteLine("Percentage of Head Count :" + percentageOfHead + "%");
                     Console.WriteLine("Percentage of Tail Count :" + percentageOfTail + "%");
-                    Console.WriteLine("******Thank YOU*******");
+                    
 
                 }               
             }
