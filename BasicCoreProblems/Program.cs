@@ -7,7 +7,7 @@ namespace BasicCoreProblems
         public static void Main(string[] args)
         {
             Console.WriteLine("*****WELL COME TO BASICCOREPROBLEMS*****");
-            Console.WriteLine("Please Select The Below Given option::" + "\n" + "1.FlipCoin" + "\n" + "2.LeapYear" + "\n" + "3.PowerOfTwo" + "\n" + "4.HarmonicNumber"+"\n"+ "5.QuoteintAndReminder "+"\n"+ "6.SwapTwoNumbers");
+            Console.WriteLine("Please Select The Below Given option::" + "\n" + "1.FlipCoin" + "\n" + "2.LeapYear" + "\n" + "3.PowerOfTwo" + "\n" + "4.HarmonicNumber"+"\n"+ "5.QuoteintAndReminder "+"\n"+ "6.SwapTwoNumbers"+"\n"+"7.EvenAndOddNumber");
             while (true)
             {
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -46,6 +46,11 @@ namespace BasicCoreProblems
                         case 6:
                             Console.WriteLine("*****WELL COME TO SwapTwoNumberProblem*****");
                             SwapTwoNumbers.Swap();
+                            Console.WriteLine("******Thank YOU*******");
+                            break;
+                        case 7:
+                            Console.WriteLine("*****WELL COME TO OddAndEvenProblem*****");
+                            EvenOddNumber.Number();
                             Console.WriteLine("******Thank YOU*******");
                             break;
                         default:
