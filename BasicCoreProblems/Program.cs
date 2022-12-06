@@ -58,6 +58,11 @@ namespace BasicCoreProblems
                             AlphabetIsVowelOrConsonant.Vowels();
                             Console.WriteLine("******Thank YOU*******");
                             break;
+                        case 9:
+                            Console.WriteLine("*****WELL COME TO LargestAmong3NumbersProblem*****");
+                            LargestAmong3Numbers.Largest();
+                            Console.WriteLine("******Thank YOU*******");
+                            break;
                         default:
                             Console.WriteLine("Please Enter Valid option");
                             Console.WriteLine("******Thank YOU*******");
